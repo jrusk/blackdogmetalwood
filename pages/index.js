@@ -31,7 +31,7 @@ export default () => (
         <p className="has-text-grey-lighter">
           <strong className="has-text-grey">Location:</strong> Phoenix, AZ
           &nbsp;|&nbsp;
-          <strong className="has-text-grey">Tel:</strong> (602) 943-3674
+          <strong className="has-text-grey">Tel:</strong> (623) 680-1376
           &nbsp;|&nbsp;
           <strong className="has-text-grey">Email:</strong>{' '}
           <a href="mailto:info@blackdogmetalwood.com" target="_top">
