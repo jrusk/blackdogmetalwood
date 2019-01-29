@@ -7,15 +7,18 @@ export default () => (
       <title>Black Dog Metal and Wood</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous"
+      />
     </Head>
     <section className="hero has-background-black is-fullheight">
       <div className="hero-head">
-        <figure className="image is-128x128">
-          <img src="static/blackdog_logo.png" />
+        <figure className="image is-3by1">
+          <img src="static/blackdog_logo.jpg" />
         </figure>
-        <h1 className="title has-text-grey-lighter">
-          Black Dog Metal and Wood
-        </h1>
       </div>
       <div className="hero-body">
         <div className="has-text-left has-text-grey-lighter">
@@ -23,7 +26,7 @@ export default () => (
             Custom Metal Creations
           </h2>
           <figure className="image">
-            <img src="static/IMG_6697.jpg" />
+            <img src="static/table.jpg" />
           </figure>
         </div>
       </div>
@@ -37,12 +40,20 @@ export default () => (
           <a href="mailto:info@blackdogmetalwood.com" target="_top">
             info@blackdogmetalwood.com
           </a>
+          &nbsp;|&nbsp;
+          <strong className="has-text-grey">Facebook:</strong>
+          <a href="https://www.facebook.com/blackdogmetalwood/">
+            <span className="icon">
+              <i className="fab fa-facebook-f" />
+            </span>
+          </a>
         </p>
+        <br />
       </div>
     </section>
     <style jsx>{`
       .has-bg-img {
-        background: url('static/blackdog_logo.png') center center;
+        background: url('static/blackdog_logo.jpg') center center;
         background-size: cover;
       }
     `}</style>
