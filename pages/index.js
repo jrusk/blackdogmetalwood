@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import '../styles/styles.sass';
+import Head from "next/head";
+import "../styles/styles.sass";
 
-export default () => (
+const Index = () => (
   <div>
     <Head>
       <title>Black Dog Metal and Wood</title>
@@ -11,7 +11,7 @@ export default () => (
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       />
     </Head>
     <section className="hero has-background-black is-fullheight">
@@ -36,7 +36,7 @@ export default () => (
           &nbsp;|&nbsp;
           <strong className="has-text-grey">Tel:</strong> (623) 680-1376
           &nbsp;|&nbsp;
-          <strong className="has-text-grey">Email:</strong>{' '}
+          <strong className="has-text-grey">Email:</strong>{" "}
           <a href="mailto:info@blackdogmetalwood.com" target="_top">
             info@blackdogmetalwood.com
           </a>
@@ -53,9 +53,11 @@ export default () => (
     </section>
     <style jsx>{`
       .has-bg-img {
-        background: url('static/blackdog_logo.jpg') center center;
+        background: url("static/blackdog_logo.jpg") center center;
         background-size: cover;
       }
     `}</style>
   </div>
 );
+
+export default Index;
