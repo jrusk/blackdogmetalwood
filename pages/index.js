@@ -19,6 +19,7 @@ export default function Home() {
             layout="fill"
             objectFit="contain"
             objectPosition="center top"
+            priority={true}
           />
         </div>
         <div>
@@ -27,7 +28,7 @@ export default function Home() {
           <div className={styles.banner}>
             <Image
               src="/table.jpg"
-              alt="Black Dog Logo"
+              alt="Black Dog Table"
               layout="fill"
               objectFit="contain"
               objectPosition="center top"
