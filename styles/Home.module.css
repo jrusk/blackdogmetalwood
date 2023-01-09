@@ -11,12 +11,14 @@
   position: relative;
   width: 100%;
   min-height: 550px;
+  object-fit: "contain";
 }
 
 .banner {
   position: relative;
   width: 100%;
   min-height: 1000px;
+  object-fit: "contain";
 }
 
 .footer {

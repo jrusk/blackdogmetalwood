@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import logo from "../public/blackdog_logo.jpg";
 
 export default function Home() {
   return (
@@ -13,26 +14,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.hero}>
-          <Image
-            src="/blackdog_logo.jpg"
-            alt="Black Dog Logo"
-            layout="fill"
-            objectFit="contain"
-            objectPosition="center top"
-            priority={true}
-          />
+          <Image src={logo} alt="Black Dog Logo" priority={true} fill />
         </div>
         <div>
           <h1 className={styles.title}>Custom Metal Creations</h1>
 
           <div className={styles.banner}>
-            <Image
-              src="/table.jpg"
-              alt="Black Dog Table"
-              layout="fill"
-              objectFit="contain"
-              objectPosition="center top"
-            />
+            <Image src="/table.jpg" alt="Black Dog Table" fill />
           </div>
         </div>
       </main>
